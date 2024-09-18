@@ -6,7 +6,7 @@ This project showcases my journey in practicing PostgreSQL skills, including sch
 
 ## **1. Setting Up the Database**
 
-### **Schema Design**
+### **Database Design**
 
 I started by designing the database structure, focusing on three main tables: `Products`, `Customers`, and `Orders`. Each table has a `PRIMARY KEY`, and the `Orders` table includes `FOREIGN KEY` references to both `Products` and `Customers`.
 
@@ -15,6 +15,7 @@ I started by designing the database structure, focusing on three main tables: `
 - **Orders** tracks who ordered what and in what quantity.
 
 The schema aims to represent a simplified sales system where I can analyze product sales, customer behaviors, and revenue.
+![1.png](https://github.com/thanh-tran0106/mycompany/blob/master/mycompany_photo/table_relationship.drawio.png?raw=true)
 
 ### **Tables Created:**
 
@@ -150,6 +151,7 @@ To automate and interact with the database, I integrated Python. I used:
 ### **Script Highlights**:
 
 - I wrote Python scripts to create tables in multiple schemas (`tenant2`, `tenant3`), insert data, and back up the database.
+-![2.png](https://github.com/thanh-tran0106/mycompany/blob/master/mycompany_photo/schema.drawio.png?raw=true)
 
 This part helped me automate tasks and manage multiple schemas more efficiently, further reinforcing my understanding of database administration.
 
